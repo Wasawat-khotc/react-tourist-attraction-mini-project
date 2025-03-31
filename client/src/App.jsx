@@ -1,7 +1,8 @@
-import "./App.css";
+import { useState, useEffect } from 'react';
+import Home from './Home';
 
 function App() {
-  return <div className="App">{/* Start coding here */}</div>;
+  return <Home />;
 }
 
 export default App;
